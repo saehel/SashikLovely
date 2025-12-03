@@ -1,0 +1,22 @@
+#countdown {
+  font-size: 60px;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  text-align: center;
+
+  background: linear-gradient(
+    90deg,
+    rgb(251, 1, 255) 25%,
+    rgb(208, 255, 0) 35%,
+    rgb(9, 255, 0) 45% ,
+    rgb(0, 234, 255) 55% ,
+    rgb(140, 0, 255)80%
+  );
+
+  background-size: 100% 100%; /* растягиваем, чтобы было движение */
+  background-repeat: no-repeat;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
