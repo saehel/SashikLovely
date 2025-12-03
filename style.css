@@ -1,0 +1,76 @@
+body {
+    /* Задаем цвета радуги */
+    background-image: linear-gradient(
+        to bottom, /* Направление градиента */
+        yellow, rgb(107, 234, 107),rgb(219, 45, 161), blue, rgb(176, 40, 250) /* Цвета радуги */
+    );
+    background-attachment: fixed; /* Градиент привязан к высоте страницы */
+    height: 100vh; /* Гарантируем, что градиент будет на всю высоту viewport */
+    margin: 0; /* Убираем отступы по умолчанию */
+    /* color: white; Цвет текста для лучшей читаемости на фоне */
+    text-align: center; /* Центрируем текст для примера */
+    padding-top: 50px; /* Отступ сверху для контента */
+}
+
+.neon-button {
+        background: #39ff14;
+        color:  #000;
+        border: 2px solid #39ff14;
+        /* font-family: "Times New Roman", serif; */
+        cursor: pointer;
+        text-shadow: 0 0 5px #39ff14, 0 0 10px #39ff14, 0 0 20px #39ff14;
+        box-shadow: 0 0 5px #39ff14, 0 0 20px #39ff14, 0 0 40px #39ff14;
+        transition: all 0.3s ease;
+}
+
+.neon-button:hover {
+        background: #39ff14;
+        color: #000;
+        box-shadow: 0 0 10px #39ff14, 0 0 30px #39ff14, 0 0 60px #39ff14;
+        transform: scale(1.1);
+}
+
+.pink-button {
+        background: #ff4da6;
+        color: #000;
+        font-family: Arial, sans-serif;
+        cursor: pointer;
+        text-shadow: 0 0 5px #ff4da6, 0 0 10px #ff4da6, 0 0 20px #ff4da6;
+        box-shadow: 0 0 5px #ff4da6, 0 0 20px #ff4da6, 0 0 40px #ff4da6;
+        transition: all 0.3s ease;
+}
+
+.pink-button:hover {
+        background: #ff4da6;
+        color: #000;
+        box-shadow: 0 0 10px #ff4da6, 0 0 30px #ff4da6, 0 0 60px #ff4da6;
+        transform: scale(1.1);
+}
+
+.rainbow-button {
+    background: radial-gradient(rgb(181, 79, 255), blue, rgb(57, 250, 57),rgb(255, 46, 217));
+    color: #9a05c4;
+    cursor: pointer;
+    text-shadow: 0 0 5px rgba(255,255,255,0.7), 0 0 10px rgba(255,255,255,0.5);
+    transition: all 0.3s ease;
+}
+
+.rainbow-button:hover {
+    background: radial-gradient(violet, rgb(181, 79, 255), blue, rgb(57, 250, 57), yellow, rgb(255, 46, 217));
+    color: #000;
+    box-shadow: 0 0 10px rgba(255,255,255,0.7), 0 0 30px rgba(255,255,255,0.5), 0 0 60px rgba(255,255,255,0.3);
+    transform: scale(1.1);
+}
+
+p.neon-text {
+        font-size: 80px;
+        font-family: "Times New Roman", serif;
+        color: #ff4da6;
+        text-align: center;
+        text-shadow: 
+            0 0 5px #ff4da6,
+            0 0 10px #ff4da6,
+            0 0 20px #ff4da6,
+            0 0 40px #ff4da6,
+            0 0 80px #ff4da6;
+}
